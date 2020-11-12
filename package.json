@@ -1,0 +1,31 @@
+{
+  "name": "appium-findbyimage",
+  "version": "1.0.0",
+  "description": "Attempt to set up working example of appium's image search uusing javascript clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rup1/appium-findbyimage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rup1/appium-findbyimage/issues"
+  },
+  "homepage": "https://github.com/Rup1/appium-findbyimage#readme",
+  "dependencies": {
+    "appium": "^1.18.3",
+    "appium-base-driver": "^7.3.2",
+    "appium-mac-driver": "^1.10.1",
+    "wd": "^1.13.0"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^6.7.3",
+    "@wdio/cli": "^6.7.4",
+    "webdriverio": "^6.7.3"
+  }
+}
